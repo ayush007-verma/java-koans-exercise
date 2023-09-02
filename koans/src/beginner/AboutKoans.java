@@ -8,12 +8,14 @@ public class AboutKoans {
 
     @Koan
     public void findAboutKoansFile() {
-        fail("delete this line to advance");
+        // commenting the line where fail function is called so that assertion does n't fail.
+        // fail("delete this line to advance");
     }
 
     @Koan
     public void definitionOfKoanCompletion() {
-        boolean koanIsComplete = false;
+        // changing value of koanIsComplete to true...
+        boolean koanIsComplete = true;
         if (!koanIsComplete) {
             fail("what if koanIsComplete variable was true?");
         }
