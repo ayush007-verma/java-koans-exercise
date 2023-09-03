@@ -20,12 +20,12 @@ public class AboutLocale {
         Date date = cal.getTime();
         Locale localeBR = new Locale("pt", "BR"); // portuguese, Brazil
         DateFormat dateformatBR = DateFormat.getDateInstance(DateFormat.FULL, localeBR);
-        assertEquals(dateformatBR.format(date), __);
+        assertEquals(dateformatBR.format(date), "domingo, 3 de abril de 2011");
 
         Locale localeJA = new Locale("ja"); // Japan
         DateFormat dateformatJA = DateFormat.getDateInstance(DateFormat.FULL, localeJA);
         // Well if you don't know how to type these characters, try "de", "it" or "us" ;-)
-        assertEquals(dateformatJA.format(date), __);
+        assertEquals(dateformatJA.format(date), "__");
     }
 
     @Koan
